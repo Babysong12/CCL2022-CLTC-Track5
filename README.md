@@ -10,7 +10,7 @@
 ```
 ├── script # 存放基线脚本
 ├── bert_model.py # bert模型的相应定义
-├── data_loader # Dataset子类，完成数据读取
+├── data_loader.py # Dataset子类，完成数据读取
 ├── data_loader_v2.py # Dataset子类，完成数据读取，将每个原句对应的修改句补齐为10句
 ├── generate_feature.py # 对修改句生成相应质量评估分数
 ├── models.py # 完成模型结构设计以及前向传播流程
